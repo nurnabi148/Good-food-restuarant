@@ -15,7 +15,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 
-height: 810px;
+height: 950px;
 
 }
 
@@ -70,6 +70,7 @@ font-weight: 500;
 line-height: 28px;
 letter-spacing: 0%;
 text-align: center;
+margin-top: 24px;
 }
 #hero .hero-content .hero-button{
     color: rgba(255, 255, 255, 1);
@@ -101,10 +102,298 @@ padding: 18px 28px 18px 28px;
 }
 #hero .hero-content .btn{
     text-align: center;
-    /* Frame 6 */
- margin-top: 15px;
+    
+ margin-top: 36px;
 
+ 
+}
+
+#card-box{
+
+width: 1320px;
+height: 742px;
+/* Auto layout */
+
+/* align-items: center; */
+gap: 48;
+
+
+margin: 50px auto;
+margin-top: 150px;
 
 }
 
+#card-box .title{
 
+color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: Bold;
+font-size: 36px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#card-box .subtitle{
+    opacity: 0.6;
+color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .heading{
+
+   color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+
+width: 691px;
+height: 128px;
+}
+.card{
+    
+width: 424px;
+height: 500px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16px;
+margin-top: 32px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+.card .imgBox{
+
+    /* Rectangle 1 */
+width: 420px;
+ height: 283px; 
+border-radius: 16px;
+}
+.card .imgBox img{
+    width: 100%;
+    
+}
+.card img {
+  width: 500px;
+  transition: transform 0.5s ease;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.card .shop{
+   
+width: 187px;
+height: 56px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 4px 10px 4px 10px;
+
+border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: SemiBold;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card .discount{
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: SemiBold;
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card .discription{
+    opacity: 0.7;
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.card-container .threeCard{
+    display: flex;
+    justify-content: space-between;
+}
+
+#card-box .watch{
+    /* Frame 6 */
+width: 212px;
+height: 65px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 21px 32px 21px 32px;
+
+border-radius: 8px;
+background: rgba(82, 195, 3, 1);
+
+color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-style: SemiBold;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+#card-box .btn{
+    text-align: center;
+    justify-content: center; 
+    display: flex;
+    /* margin-left: auto ;
+    margin-right: auto; */
+    margin-top: 60px;
+}
+
+.btn:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+#footer{
+    /* image 2 */
+    margin-top: 20px;
+width: 1932px;
+height: 600px;
+    background-image:url("../assets/social-bg.png") ;
+    background-repeat:no-report;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+#footer .footer-container{
+    /* Frame 19 */
+width: 1320px;
+height: 326px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 48;
+
+margin: 0 auto;
+padding:50px;
+}
+#footer .footer-content{
+    /* Frame 17 */
+width: 805px;
+height: 180px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+
+}
+.footer-content .heading{
+    /* We always make sure to provide you with good food */
+width: 805px;
+height: 128px;
+color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-content .description{
+    /* Don’t miss a thing! Subscribe to our newsletter */
+width: 556px;
+height: 28px;
+opacity: 0.6;
+color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+}
+
+
+.footer-container .follow{
+    /* Frame 18 */
+width: 1320px;
+height: 98px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 30px 10px 30px 10px;
+
+box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+margin-top: 24px;
+}
+
+.footer-container .follow-text{
+        /* Follow Us On */
+width: 207px;
+height: 38px;
+opacity: 0.7;
+color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-style: SemiBold;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
