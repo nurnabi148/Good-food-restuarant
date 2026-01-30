@@ -112,9 +112,7 @@ padding: 18px 28px 18px 28px;
 
 width: 1320px;
 height: 742px;
-/* Auto layout */
 
-/* align-items: center; */
 gap: 48;
 
 
@@ -182,7 +180,7 @@ margin-top: 32px;
 }
 .card .imgBox{
 
-    /* Rectangle 1 */
+    
 width: 420px;
  height: 283px; 
 border-radius: 16px;
@@ -254,10 +252,10 @@ text-align: center;
 }
 
 #card-box .watch{
-    /* Frame 6 */
+    
 width: 212px;
 height: 65px;
-/* Auto layout */
+
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -283,8 +281,6 @@ border: none;
     text-align: center;
     justify-content: center; 
     display: flex;
-    /* margin-left: auto ;
-    margin-right: auto; */
     margin-top: 60px;
 }
 
@@ -293,11 +289,94 @@ border: none;
     transform: scale(1.05);
 }
 
+
+
+#about{
+
+width: 1700px;
+
+  height: 600px; 
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+.about-container{
+  display: flex;
+    align-items: center; 
+     min-height: 600px;
+     
+
+}
+
+.about-image{
+    
+flex: 1; 
+overflow: hidden;
+
+}
+.about-image img{
+  
+    
+    width: 100%;
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: block; 
+    
+}
+.about-container .footer-container{
+    
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 1);
+}
+
+#about .description{
+    text-align: center;
+    margin:0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.socials-icon{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    gap:32px;
+    margin-top: 32px;
+}
+
+.socials-icon a{
+    text-decoration: none;
+    display: flex;
+    
+}
+.socials-icon img:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.icon-image img{
+    width: 44px;
+    height: 44px;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+
 #footer{
-    /* image 2 */
     margin-top: 20px;
-width: 1932px;
-height: 600px;
+    width: 1932px;
+    height: 600px;
     background-image:url("../assets/social-bg.png") ;
     background-repeat:no-report;
     background-size: cover;
@@ -305,6 +384,7 @@ height: 600px;
     
     
 }
+
 
 #footer .footer-container{
     /* Frame 19 */
@@ -318,7 +398,8 @@ align-items: center;
 gap: 48;
 
 margin: 0 auto;
-padding:50px;
+padding-top: 136px;
+padding-bottom: 137px;
 }
 #footer .footer-content{
     /* Frame 17 */
